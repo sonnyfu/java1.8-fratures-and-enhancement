@@ -1,5 +1,6 @@
 package com.sonnyfu.java8;
 
+<<<<<<< HEAD
 import java.util.Comparator;
 
 /**
@@ -78,6 +79,5 @@ public class Lambda {
 		   //变量作用域
 		    public interface Converter<T1, T2> {
 		        void convert(int i);
-		    }
-		   
+		    }		   
 }
