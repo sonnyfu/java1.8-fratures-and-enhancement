@@ -1,6 +1,5 @@
 package com.sonnyfu.java8;
 
-<<<<<<< HEAD
 import java.util.Comparator;
 
 /**
