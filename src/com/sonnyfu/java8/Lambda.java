@@ -20,7 +20,18 @@ public class Lambda {
 					return a+b;
 				}
 			};
-		      
+		    
+			/**
+			 * lambda可以隐式地给函数式接口（只含一个抽象方法的接口）赋值
+			 * 当不指明函数式接口时，编译器会自动解释这种转化：
+				new Thread(
+				   () -> System.out.println("hello world")
+				).start();
+			 */
+			Runnable r=()->{System.out.println("我隐性赋值了");};
+			
+			new Thread(r).start();
+			
 		      // 类型声明
 		      MathOperation addition = (int a, int b) -> a + b;
 		        
