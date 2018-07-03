@@ -10,6 +10,7 @@ import java.util.Comparator;
  */
 public class Lambda {
 	//yes
+	
 	   public static void main(String args[]){
 		    Lambda tester = new Lambda();
 		    
