@@ -8,8 +8,7 @@ import java.util.Comparator;
  * 1 简化回调模式
  * 
  */
-public class Lambda {
-	//yes
+public class Lambda {//yes，
 	
 	   public static void main(String args[]){
 		    Lambda tester = new Lambda();
