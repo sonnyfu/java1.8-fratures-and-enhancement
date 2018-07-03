@@ -11,7 +11,9 @@ import java.util.Comparator;
 public class Lambda {//yes，
 	
 	   public static void main(String args[]){
-		    Lambda tester = new Lambda();
+		   //sdfs
+		   
+		   Lambda tester = new Lambda();
 		    
 		    //表达实例  
 		    MathOperation add_noLambda=new MathOperation() {
