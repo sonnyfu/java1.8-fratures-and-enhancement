@@ -15,6 +15,7 @@ public class Lambda {
 		   
 		   Lambda tester = new Lambda();
 		    
+		  System.Out.Println("hello");
 		    //表达实例  
 		    MathOperation add_noLambda=new MathOperation() {
 				
