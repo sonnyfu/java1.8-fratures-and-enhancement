@@ -1,0 +1,12 @@
+moti:what c stands for in that code?an instance wraped in T which is about predicate<T>
+ref:https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html#approach6
+
+why:
+using Anonymous Classes is cumbersome,
+Lambda expressions let you express instances of single-method classes more compactly.
+
+how:
+see ref;
+
+what:
+The interface Predicate<T> is an example of a generic interface(1.8);
